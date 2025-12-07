@@ -1068,6 +1068,16 @@ function XO(str) {
 }
 // console.log(XO("xxOo"))
 
+<<<<<<< HEAD
+function _if(bool, func1, func2) {
+  if(bool) {
+    return func1()
+  } else {
+    return func2()
+  }
+}
+
+=======
 // DNA to RNA Conversion
 function DNAtoRNA(dna) {
   let result = dna.replace(/T/g, "U")
@@ -1216,3 +1226,4 @@ function consonats(str) {
 }
 
 console.log(consonats('hello'))
+>>>>>>> 7a08a491f292ebe9c0c32ceb54a5c1148f43752e
