@@ -1227,3 +1227,22 @@ function consonats(str) {
 
 console.log(consonats('hello'))
 >>>>>>> 7a08a491f292ebe9c0c32ceb54a5c1148f43752e
+
+// Who ate the cookie?
+function cookie(x){
+  if (typeof x == string) {
+    return "Zach"
+  } else if (typeof x == float) {
+    return "Monica"
+  } else return "the dog"
+}
+
+function cookie(x){
+  if (typeof x === "string") {
+    return "Zach"
+  } else if (typeof x === "number") {
+    return "Monica"
+  } else {
+    return 'the dog'
+  }
+}
