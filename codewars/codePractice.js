@@ -1246,3 +1246,27 @@ function cookie(x){
     return 'the dog'
   }
 }
+
+// Even or Odd 
+function evenOrOdd(number) {
+  if (number % 2 === 0) {
+    return "Even"
+  } else {
+    return "Odd"
+  }
+}
+
+// Multiply
+
+def multiply(a, b):
+   return (a * b)
+
+   function multiply(a, b){
+  return a * b
+}
+
+// Do I get a bonus?
+function bonusTime(salary, bonus) {
+  const total = bonus ? salary * 10 : salary
+return '\u00A3' + total
+}
