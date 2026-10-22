@@ -15,3 +15,23 @@ def cookie(x):
         return "Who ate the last cookie? It was Monica!"
     else: 
         return "Who ate the last cookie? It was the dog!"     
+
+# // Even or Odd 
+def even_or_odd(number):
+    if number % 2 == 0:
+        return "Even"
+    else: 
+        return "Odd"
+
+# // Multiply
+
+def multiply(a, b):
+   return (a * b)
+
+# Do I get a bonus?
+def bonus_time(salary, bonus):
+    total = salary * 10 if bonus else salary
+    return f"${total}"
+
+    
+    
