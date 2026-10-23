@@ -18,8 +18,34 @@
 //  [ @ , _ , _ , _ , _ , _ ]]
 
 // # Clean up after your dog
-function crap(garden, bags, cap){
-if (garden.includes('D')) {
-  return 'Dog!!'
-} if (bags )
+// function crap(garden, bags, cap){
+// if (garden.includes('D')) {
+//   return 'Dog!!'
+// } if (bags )
+// }
+
+//Battery Bars
+
+function battery_bars(percent) {
+  if (percent == 100) {
+    return "[#####]";
+  } else if (percent >= 80) {
+    return "[####.]";
+  } else if (percent >= 60) {
+    return "[###..]";
+  } else if (percent >= 40) {
+    return "[##...]";
+  } else if (percent >= 20) {
+    return "[#....]";
+  } else {
+    return "[.....]";
+  }
+}
+
+function spEng(sentence) {
+  if (sentence.toLowerCase().includes("english")) {
+    return true;
+  } else {
+    return false;
+  }
 }
