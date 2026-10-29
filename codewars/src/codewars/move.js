@@ -8,3 +8,12 @@ function switchItUp(number){
 return ["Zero", "One","Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine"][number]
     }
     console.log(switchItUp(9))
+
+    function generateRange(min, max, step){
+let numbers = [];
+  for (let number = min; number <= max; number += step) {
+    numbers.push(number)
+  }
+  return numbers;
+}
+console.log(generateRange(2, 10, 2))
