@@ -19,20 +19,67 @@
 // console.log(generateRange(2, 10, 2))
 
 
-function multiplesOfThree(n) {
-  const numbers = [];
+// function multiplesOfThree(n) {
+//   const numbers = [];
 
-for (let number = 3; number <= n; number += 3) {
- numbers.push(number)
-}
-  return numbers;
-}
-console.log(multiplesOfThree(33))
+// for (let number = 3; number <= n; number += 3) {
+//  numbers.push(number)
+// }
+//   return numbers;
+// }
+// console.log(multiplesOfThree(33))
 
-function sumTo(n) {
-let numbers = 0;
-for (let number = 1; number <= n; number++)
-numbers += number
+// function sumTo(n) {
+// let numbers = 0;
+// for (let number = 1; number <= n; number++)
+// numbers += number
+// return numbers
+
+
+// }
+
+// function countDown(n) {
+// let numbers = []
+// for (let number = n; number >= 0; number--) {
+//     numbers.push(number)
+// }
+//  return numbers
+// }
+// console.log(countDown(12))
+
+function squares(n) {
+let numbers = []
+for (let number = 1; number <= n; number++) {
+    numbers.push(number**2)
+}
 return numbers
 }
-console.log(sumTo(6))
+
+console.log(squares(4))
+
+function evenNumbers(n) {
+let numbers = []
+for (let number = 0; number <= n; number +=2) {
+    numbers.push(number)
+}
+return numbers
+}
+console.log(evenNumbers(7))
+
+function oddNumbers(n) {
+let numbers = []
+for (let number = 1; number <= n; number +=2) {
+    numbers.push(number)
+}
+return numbers 
+}
+console.log(oddNumbers(7))
+
+function multiplesOfFive(n) {
+let numbers = []
+for (let number = 5; number <= n; number +=5) {
+    numbers.push(number)
+}
+return numbers
+}
+console.log(multiplesOfFive(25))
