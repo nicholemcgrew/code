@@ -28,3 +28,11 @@ for (let number = 3; number <= n; number += 3) {
   return numbers;
 }
 console.log(multiplesOfThree(33))
+
+function sumTo(n) {
+let numbers = 0;
+for (let number = 1; number <= n; number++)
+numbers += number
+return numbers
+}
+console.log(sumTo(6))
