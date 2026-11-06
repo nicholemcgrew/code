@@ -83,3 +83,10 @@ for (let number = 5; number <= n; number +=5) {
 return numbers
 }
 console.log(multiplesOfFive(25))
+
+function peopleWithAgeDrink(old) {
+  return old < 14 ? “drink toddy”
+: old < 18 ? “drink coke”
+: old < 21 ? “drink beer”
+  : “drink whisky”
+  }
