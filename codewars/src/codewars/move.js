@@ -47,46 +47,100 @@
 // }
 // console.log(countDown(12))
 
-function squares(n) {
-let numbers = []
-for (let number = 1; number <= n; number++) {
-    numbers.push(number**2)
+// function squares(n) {
+// let numbers = []
+// for (let number = 1; number <= n; number++) {
+//     numbers.push(number**2)
+// }
+// return numbers
+// }
+
+// console.log(squares(4))
+
+// function evenNumbers(n) {
+// let numbers = []
+// for (let number = 0; number <= n; number +=2) {
+//     numbers.push(number)
+// }
+// return numbers
+// }
+// console.log(evenNumbers(7))
+
+// function oddNumbers(n) {
+// let numbers = []
+// for (let number = 1; number <= n; number +=2) {
+//     numbers.push(number)
+// }
+// return numbers 
+// }
+// console.log(oddNumbers(7))
+
+// function multiplesOfFive(n) {
+// let numbers = []
+// for (let number = 5; number <= n; number +=5) {
+//     numbers.push(number)
+// }
+// return numbers
+// }
+// console.log(multiplesOfFive(25))
+
+// function peopleWithAgeDrink(old) {
+//   return old < 14 ? “drink toddy”
+// : old < 18 ? “drink coke”
+// : old < 21 ? “drink beer”
+//   : “drink whisky”
+//   }
+
+//   function sumOdd(n) {
+//  let total = 0;
+// for (let number = 1; number <= n; number += 2) {
+//     total += number
+// }
+// return total
+// }
+
+// console.log(sumOdd(5)); // 9
+// console.log(sumOdd(8)); // 16
+// console.log(sumOdd(0)); // 0
+
+// function countDown(n) {
+// let numbers = []
+// for (let number = n; number >= 0; number--) {
+//     numbers.push(number)
+// }
+// return numbers
+// }
+
+// console.log(countDown(4)); // [4, 3, 2, 1, 0]
+// console.log(countDown(0)); // [0])
+
+// function multiplesOfFour(n) {
+// let numbers = []
+// for (let number = 4; number <= n; number += 4) {
+//     numbers.push(number)
+// }
+// return numbers;
+// }
+
+
+// function sumTo(n) {
+// let total = 0;
+// for (let number = 1; number <= n; number++) {
+//     total += number
+// }
+// return total
+// }
+// console.log(sumTo(4)); // [4, 8, 12]
+// console.log(multiplesOfFour(16)); // [4, 8, 12, 16]
+// console.log(multiplesOfFour(2));  // [])
+
+
+function sumArray(numbers) {
+let sum = []
+for (let number = numbers; number <= numbers; number++) {
+    sum.push(number)
 }
-return numbers
+return sum
 }
 
-console.log(squares(4))
-
-function evenNumbers(n) {
-let numbers = []
-for (let number = 0; number <= n; number +=2) {
-    numbers.push(number)
-}
-return numbers
-}
-console.log(evenNumbers(7))
-
-function oddNumbers(n) {
-let numbers = []
-for (let number = 1; number <= n; number +=2) {
-    numbers.push(number)
-}
-return numbers 
-}
-console.log(oddNumbers(7))
-
-function multiplesOfFive(n) {
-let numbers = []
-for (let number = 5; number <= n; number +=5) {
-    numbers.push(number)
-}
-return numbers
-}
-console.log(multiplesOfFive(25))
-
-function peopleWithAgeDrink(old) {
-  return old < 14 ? “drink toddy”
-: old < 18 ? “drink coke”
-: old < 21 ? “drink beer”
-  : “drink whisky”
-  }
+console.log(sumArray([3, 4, 5, 6]))
